@@ -82,3 +82,11 @@ html {
   position: absolute;
   top: 50px;
 }
+
+#navbar_center:hover {
+  color: black !important;
+}
+
+#navbar_right:hover {
+  color: black !important;
+}
