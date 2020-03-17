@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Bedfort&family=Roboto&display=swap');
+
+.hero {
+  background: url(travel_pictures/canoes.jpg) center / cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.second_part {
+  background: url(travel_pictures/canoesbeauty.jpg) center / cover;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    background: url(travel_pictures/canoes.jpg) center / cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background: url(travel_pictures/canoes2.jpg) center/ cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.center,
+.center-column,
+.top,
+.right,
+.bottom,
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-column {
+  flex-direction: column;
+}
+
+.top {
+  align-items: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}
+.bottom {
+  align-items: flex-end;
+}
+.left {
+  justify-content: flex-start;
+}
+
+.single-spaced,
+.single-spaced * {
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+}
+
+#company_logo {
+  font-family: 'Mr Bedfort', cursive;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+#rsrt_spa {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  position: absolute;
+  top: 50px;
+}
