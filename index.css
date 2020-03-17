@@ -6,7 +6,7 @@ html {
 }
 
 .hero {
-  background: url(travel_pictures/canoes.jpg) center / cover;
+  background: url(travel_pictures/tree_desktop.jpg) center / cover;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -18,7 +18,7 @@ html {
 
 @media (max-width: 1024px) {
   .hero {
-    background: url(travel_pictures/canoes.jpg) center / cover;
+    background: url(travel_pictures/tree_desktop.jpg) center / cover;
   }
 }
 
