@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mr+Bedfort&family=Roboto&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
   background: url(travel_pictures/canoes.jpg) center / cover;
   font-family: 'Roboto', sans-serif;
@@ -8,6 +12,8 @@
 
 .second_part {
   background: url(travel_pictures/canoesbeauty.jpg) center / cover;
+  height: 100%;
+  width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -18,8 +24,7 @@
 
 @media (max-width: 768px) {
   .hero {
-    background: url(travel_pictures/canoes2.jpg) center/ cover;
-    background-size: 100% 100%;
+    background: url(travel_pictures/tree.png) center / cover;
     background-repeat: no-repeat;
   }
 }
