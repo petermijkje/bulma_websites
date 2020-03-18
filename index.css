@@ -16,6 +16,12 @@ html {
   width: 100%;
 }
 
+.italy {
+  background: url(travel_pictures/italy.jpg) center / cover;
+  height: 100%;
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
   .hero {
     background: url(travel_pictures/tree_desktop.jpg) center / cover;
@@ -89,4 +95,28 @@ html {
 
 #navbar_right:hover {
   color: black !important;
+}
+
+.white-border {
+  position: absolute;
+  top: 625px;
+  right: 0px;
+  border-width: 3px 0px 3px 3px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1%;
+  height: 300px;
+  width: 200px;
+}
+
+.text-in-border {
+  padding: 20px;
+  width: 710px;
+  position: relative;
+  background: rgb(
+    204,
+    204,
+    204
+  ); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
 }
